@@ -1,0 +1,5 @@
+package com.mysite.ecomerce_project.Enums;
+
+public enum Mark_produit {
+    NIKE,ADIDAS,APPLE,SAMSUNG,ZARA,LUIS_VUITTON,BERSHKA,DELL,LG,LACOST,REDMI,HAIWAI,LENOVO,LOTTO,SONY,MICROSOFT
+}
