@@ -18,23 +18,11 @@ import java.util.List;
 import java.util.UUID;
 
 @SpringBootApplication
-public class EComerceProjectApplication implements CommandLineRunner {
-    @Autowired
-    private ClientRepository clientRepository;
-    @Autowired
-    private AdministrateurRepository administrateurRepository;
-    @Autowired
-    private ProduitRepository produitRepository;
-    @Autowired
-    private ImpService impService;
+public class EComerceProjectApplication  {
 
     public static void main(String[] args) {
         SpringApplication.run(EComerceProjectApplication.class, args);
     }
 
 
-    @Override
-    public void run(String... args) throws Exception {
-
-    }
 }
